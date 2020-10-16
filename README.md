@@ -1,2 +1,2 @@
 # project-meme-generator
-A lieel complex Meme Generator with abelitt to upload and download meme
+A meme generator with abelity to opload and download pics :)
