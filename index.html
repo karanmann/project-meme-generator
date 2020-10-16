@@ -14,12 +14,14 @@
     </header>
 
     <main>
-        <div class="form-container">
-            <p>Select the Picture : <input type="file" id="userPicture" onchange="updateImage()"></p>
-            <p>Meme Text : <input type="text" id="userText" oninput="updateText()" maxlength="70"> </p>
-        </div>
-        <div id="memeText"></div>
-        <div id="memePicture"><img src="" height="500" width="600"></div>
+        <form>
+            Select a picture <input type="file" id="user_picture" onchange="update_image()">
+            Meme text: <input type="text" id="user_text" oninput="update_text()" maxlength="70">
+        </form>
+        <div id="meme_text">This is where your text shows up</div>
+        <div id="meme_picture"><img src="" height="500" width="600"></div>
+
+        <p>
     </main>
 
     <footer></footer>
